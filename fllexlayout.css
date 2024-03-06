@@ -1,0 +1,54 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.A {
+    background: pink;
+    text-align: center;
+    padding: 20px;
+}
+
+.B {
+    background: lightblue;
+    text-align: center;
+    padding: 10px;
+
+    
+}
+
+.C {
+    background-color: purple;
+    text-align: center;
+    padding-right: 10px;
+    width: 20%;
+    height: 100px;
+}
+
+.DEF {
+    background-color: green;
+    text-align: center;
+    width: 75%;
+    display: flex; /* Använd flexbox för artiklar och sektion */
+    gap: 20px; /* Ange önskat avstånd mellan artiklar och sektion */
+
+    
+}
+
+.D, .E {
+    background: yellow;
+    flex: 1;
+}
+
+.G {
+    background-color: lightgray; /* Ändra färgen efter behov */
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+h1.my-class {
+    color: pink !important;
+}
